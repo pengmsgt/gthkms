@@ -1,0 +1,142 @@
+
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,button,textarea,table,tbody,tfoot,thead,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background: transparent;
+}
+article,aside,dialog,figure,footer,header,hgroup,nav,section {
+	display: block;
+}
+body,button,input,select,textarea {
+    font: 12px/1.5 arial;
+    font-family: "Microsoft YaHei","SimHei";
+}
+body{
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {
+	font-size: 100%;
+}
+address,cite,dfn,em,var {
+	font-style: normal;
+}
+code,kbd,pre,samp {
+	font-family: courier new,courier,monospace;
+}
+small {
+	font-size: 12px;
+}
+ul,ol,li {
+	list-style: none;
+}
+img {
+	border: none;
+}
+a {
+	outline: thin none;
+    text-decoration: none;
+    color:#000;
+}
+a:hover {
+    color: #c50001;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+   zoom: 1;
+}
+html,
+body {
+    width: 100%;
+    background: url(../images/public/bgtop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*公共头部*/
+/*公共中部*/
+.main{
+    width: 100%;
+}
+.main>.container{
+    background:#ffffff
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*公共尾部*/
+.footer{
+    width: 100%;
+}
+
+/*当前位置*/
+.crumbs{
+    width: 100%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 16px 0 6px;
+    border-bottom: 1px solid #cecece;
+}
+.crumbs img{
+    display: inline-block;
+    margin-bottom: -1px;
+}
+.crumbs span{
+    display: inline-block;
+    margin-left: 5px;
+}
+.crumbs a{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*分页样式*/
+/*-------------------------------------------------------------------*/
+#page_div{
+    width: 80%;
+    margin: 1em auto;
+    text-align: center;
+}
+.pagination-index,
+.pagination-num{
+    border: 1px solid #bfbfbf;
+    margin: 0.2em;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #000;
+}
+.pagination-num.active,
+.pagination-index:hover,
+.pagination-num:hover{
+    background: #1a4d99;
+    color: white;
+}
+.pagination-last{
+    margin-left: 0;
+}
+.pagination-last>span{
+    margin: 0.5em;
+}
+.pagination-last>input{
+    width: 2em;
+    height: 1.3em;
+    text-align: center;
+}
+
+/* ios */
+@media (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+}
