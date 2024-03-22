@@ -1,0 +1,76 @@
+.sleves-gjnav {
+	display: inline-block;
+	background: url(../../../gjx/xhtml/images/public/sleves-gjnav.png) no-repeat;
+}
+
+.gjn2 {
+	height: 20px;
+	width: 24px;
+	background-position: 0 0;
+}
+
+.gjna2 {
+	height: 20px;
+	width: 24px;
+	background-position: 0 -20px;
+}
+
+.gjna1 {
+	height: 21px;
+	width: 25px;
+	background-position: 0 -40px;
+}
+
+.gjn1 {
+	height: 21px;
+	width: 25px;
+	background-position: 0 -61px;
+}
+
+.gjn5 {
+	height: 24px;
+	width: 25px;
+	background-position: 0 -82px;
+}
+
+.gjna5 {
+	height: 24px;
+	width: 25px;
+	background-position: 0 -106px;
+}
+
+.gjna6 {
+	height: 25px;
+	width: 28px;
+	background-position: 0 -130px;
+}
+
+.gjna3 {
+	height: 22px;
+	width: 28px;
+	background-position: 0 -155px;
+}
+
+.gjn3 {
+	height: 22px;
+	width: 28px;
+	background-position: 0 -177px;
+}
+
+.gjn6 {
+	height: 25px;
+	width: 28px;
+	background-position: 0 -199px;
+}
+
+.gjna4 {
+	height: 23px;
+	width: 31px;
+	background-position: 0 -224px;
+}
+
+.gjn4 {
+	height: 23px;
+	width: 31px;
+	background-position: 0 -247px;
+}
