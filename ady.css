@@ -1,0 +1,9 @@
+body{
+    background: none;
+}
+
+.ady{
+    background: url(../images/public/bgtop.png) no-repeat;
+    background-size: 100% auto;
+    /* filter: gray;-webkit-filter: grayscale(1); */
+}
